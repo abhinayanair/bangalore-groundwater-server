@@ -1,0 +1,54 @@
+
+ENHANCED GROUNDWATER LEVEL PREDICTION - ML MODEL PERFORMANCE REPORT
+======================================================================
+
+MODEL PERFORMANCE COMPARISON:
+======================================================================
+
+Random Forest:
+  RMSE: 3.7842
+  MAE:  2.0821
+  R²:   0.9219
+  CV R²: 0.9462 (+/- 0.0092)
+
+Gradient Boosting:
+  RMSE: 3.6397
+  MAE:  1.9729
+  R²:   0.9277
+  CV R²: 0.9478 (+/- 0.0122)
+
+XGBoost:
+  RMSE: 3.7286
+  MAE:  2.0680
+  R²:   0.9242
+  CV R²: 0.9452 (+/- 0.0116)
+
+LightGBM:
+  RMSE: 3.6200
+  MAE:  2.1145
+  R²:   0.9285
+  CV R²: 0.9453 (+/- 0.0107)
+
+======================================================================
+BEST MODEL: LightGBM
+- RMSE: 3.6200
+- MAE:  2.1145
+- R²:   0.9285
+- CV R²: 0.9453
+
+IMPROVEMENTS OVER BASELINE:
+- Enhanced feature engineering (cyclical encoding, spatial features)
+- Advanced algorithms (XGBoost, LightGBM)
+- Cross-validation for robust evaluation
+
+FEATURE IMPORTANCE (Best Model):
+  tehsil_encoded: 0.8869
+  depth_year_interaction: 0.0228
+  longitude: 0.0180
+  distance_from_center: 0.0165
+  wellDepth: 0.0123
+  lat_lon_interaction: 0.0086
+  latitude: 0.0084
+  year: 0.0077
+  day_cos: 0.0043
+  month_cos: 0.0030

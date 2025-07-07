@@ -1,0 +1,18 @@
+SIMPLE ML MODEL RESULTS
+========================================
+Dataset: 3750 records
+Features: 10
+Training samples: 3000
+Test samples: 750
+
+Model Performance:
+RMSE: 3.8155
+MAE: 2.1542
+R²: 0.9206
+
+Top 5 Most Important Features:
+1. tehsil_encoded: 0.6188
+2. wellDepth: 0.1730
+3. longitude: 0.0930
+4. latitude: 0.0522
+5. year: 0.0334

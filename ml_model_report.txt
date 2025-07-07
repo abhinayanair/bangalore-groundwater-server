@@ -1,0 +1,60 @@
+
+GROUNDWATER LEVEL PREDICTION - ML MODEL PERFORMANCE REPORT
+============================================================
+
+DATASET SUMMARY:
+- Total records: 3750
+- Training samples: 3000
+- Test samples: 750
+- Features used: 14
+
+MODEL PERFORMANCE COMPARISON:
+============================================================
+
+Linear Regression:
+  RMSE: 7.3446
+  MAE:  4.7577
+  R²:   0.7057
+
+Ridge Regression:
+  RMSE: 7.3548
+  MAE:  4.7658
+  R²:   0.7049
+
+Lasso Regression:
+  RMSE: 7.5621
+  MAE:  4.8144
+  R²:   0.6880
+
+Random Forest:
+  RMSE: 3.7515
+  MAE:  2.2115
+  R²:   0.9232
+
+Gradient Boosting:
+  RMSE: 3.6213
+  MAE:  2.1004
+  R²:   0.9285
+
+SVR:
+  RMSE: 7.0787
+  MAE:  3.8673
+  R²:   0.7267
+
+============================================================
+BEST MODEL: Gradient Boosting
+- RMSE: 3.6213
+- MAE:  2.1004
+- R²:   0.9285
+
+FEATURE IMPORTANCE (Random Forest):
+  tehsil_encoded: 0.6306
+  wellDepth: 0.1752
+  longitude: 0.0939
+  latitude: 0.0520
+  year: 0.0274
+  day_of_year: 0.0081
+  day: 0.0056
+  dataTime_hour: 0.0025
+  wellAquiferType_encoded: 0.0013
+  is_weekend: 0.0011

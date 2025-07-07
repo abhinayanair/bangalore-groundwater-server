@@ -1,0 +1,39 @@
+# =============================================================================
+# Groundwater Level Prediction Microservice - Requirements
+# =============================================================================
+# This file contains all dependencies required for the Groundwater Level Prediction
+# microservice, which provides ML-powered groundwater level predictions for
+# environmental monitoring and water resource management.
+# =============================================================================
+
+# Core Web Framework and API
+flask==2.3.3              # Lightweight web framework for building REST APIs
+flask-cors==4.0.0         # Flask extension for handling Cross-Origin Resource Sharing (CORS)
+
+# Machine Learning and Data Science
+scikit-learn==1.3.0       # Machine learning library for predictive data analysis
+joblib==1.3.2             # Library for saving and loading Python objects (ML models)
+
+# Data Processing and Analysis
+pandas==2.0.3             # Data manipulation and analysis library for structured data
+numpy==1.24.3             # Numerical computing library for array operations and mathematical functions
+
+# Data Visualization and Reporting
+matplotlib==3.7.2         # Comprehensive library for creating static, animated, and interactive visualizations
+seaborn==0.12.2           # Statistical data visualization library built on matplotlib
+
+# =============================================================================
+# Optional Development Dependencies (Uncomment as needed)
+# =============================================================================
+# pytest==7.4.0           # Testing framework for unit and integration tests
+# pytest-flask==1.2.0     # Flask testing utilities for pytest
+# gunicorn==21.2.0        # WSGI HTTP Server for production deployment
+# python-dotenv==1.0.0    # Load environment variables from .env files
+# =============================================================================
+
+# =============================================================================
+# Model Training Dependencies (For development/retraining only)
+# =============================================================================
+# jupyter==1.0.0          # Jupyter notebook for interactive development
+# ipykernel==6.25.0       # IPython kernel for Jupyter
+# ============================================================================= 
